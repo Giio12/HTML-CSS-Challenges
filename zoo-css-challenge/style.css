@@ -114,15 +114,15 @@ footer {
 }
 
 .image-container img:nth-of-type(1) {
-  border: 5px solid  #2e0797;
+  border: 5px solid  #a93cf1;
   vertical-align: bottom;
 }
 .image-container img:nth-of-type(2) {
-  border: 5px solid  #23a87c;
+  border: 5px solid  #ec14a4;
   vertical-align: bottom;
 }
 .image-container img:nth-of-type(3) {
-  border: 5px solid  #d7ee05;
+  border: 5px solid  #f8a5dc;
   vertical-align: bottom;}
 
 .tigers {
@@ -217,6 +217,10 @@ footer {
 .membership {
   text-align: center;
   background-color: #fffffc;
+  margin: 350px; 
+}
+.membership p{
+  max-width: 700px;  
 }
 
 .membership h2 {
@@ -230,5 +234,7 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display: inline-block;
+  width: 25%; /*Tamaño para que pueda entrar las tres tarjetas*/
+ 
 }
